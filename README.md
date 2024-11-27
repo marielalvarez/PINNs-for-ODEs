@@ -1,15 +1,23 @@
 # Tumor Dynamics Modeling Using PINNs
 
 - Implementing the Game theory ODE that captures the interaction between resistant and susceptible tumor cell populations.
+```html
+<div align="center">
 $$
 W(i) = \sum p_j \cdot \text{Payoff}(ij) = 1 - r_i - d_i + (1 - p_i) \cdot X_i
 $$
+</div>
+<div align="center">
 $$
 \overline{W} = \sum p_i \cdot W(i)
 $$
+</div>
+<div align="center">
 $$
 \frac{dp_i}{dt} = p_i \cdot \left(W(i) - \overline{W}\right)
 $$
+</div>
+```
 
 \end{document}
 
