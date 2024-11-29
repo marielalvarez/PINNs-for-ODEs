@@ -1,6 +1,6 @@
 # Tumor Dynamics Modeling Using PINNs
 
-- Implementing the Game theory ODE that captures the interaction between resistant and susceptible tumor cell populations.
+Solving the Game theory ODE that captures the interaction between resistant and susceptible tumor cell populations, with Physics-Informed Neural Networks.
   
 $$ W(i) = \sum p_j \cdot \text{Payoff}(ij) = 1 - r_i - d_i + (1 - p_i) \cdot X_i $$
 $$ \overline{W} = \sum p_i \cdot W(i) $$
