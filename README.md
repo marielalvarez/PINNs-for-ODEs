@@ -1,5 +1,7 @@
 # Tumor Dynamics Modeling Using PINNs
 
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge)
+
 Solving the Game theory ODE, that captures the interaction between resistant and susceptible tumor cell populations, with Physics-Informed Neural Networks.
   
 $$ W(i) = \sum p_j \cdot \text{Payoff}(ij) = 1 - r_i - d_i + (1 - p_i) \cdot X_i $$
